@@ -7,17 +7,17 @@ class ShopProduct
     public $producerFirstName;
     public $price = 0;
 
-    public function __contruct(
-        $title,
-        $firstName,
-        $mainName,
-        $price
-    ) {
-        $this->title = $title;
-        $this->producerFirstName = $firstName;
-        $this->producerMainName = $mainName;
-        $this->price = $price;
-    }
+    // public function __contruct(
+    //     $title,
+    //     $firstName,
+    //     $mainName,
+    //     $price
+    // ) {
+    //     $this->title = $title;
+    //     $this->producerFirstName = $firstName;
+    //     $this->producerMainName = $mainName;
+    //     $this->price = $price;
+    // }
 }
 
 $product1 = new ShopProduct();
